@@ -29,7 +29,7 @@ namespace v1_20160722
             TextView Lab_SelectCity = FindViewById<TextView>(Resource.Id.Lab_SelectCity);
             Lab_SelectCity.Text = Intent.GetStringExtra("TargetCity")?? Lab_SelectCity.Text;
 
-            //set Target time
+            //set Target timeww
             //string index = Intent.GetStringExtra("TargetTime") ?? "0";
 
             //refresh Weatherd Data
