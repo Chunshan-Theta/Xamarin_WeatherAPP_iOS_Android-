@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:gravity="left"
+        android:layout_marginBottom="35.0dp"
+        android:layout_marginTop="10.0dp"
+        android:layout_marginRight="17.0dp"
+        android:layout_marginLeft="25.0dp">
+        <TextView
+            android:text="Taiwan"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Lab_SelectCity"
+            android:layout_marginRight="65px" />
+        <Button
+            android:id="@+id/Btu_SelectCity"
+            android:text="Select City"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginRight="0.0dp" />
+        <Button
+            android:text="NextDay"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/NextDay" />
+    </LinearLayout>
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1">
+        <TableRow
+            android:id="@+id/tableRow1">
+            <TextView
+                android:text="City :"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Lab_CityName_title"
+                android:layout_marginRight="80.0dp"
+                android:layout_marginBottom="20.0dp" />
+            <TextView
+                android:text="Row1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Lab_CityName" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2">
+            <TextView
+                android:text="Datetime :"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Lab_Datetime_title"
+                android:layout_marginBottom="20.0dp" />
+            <TextView
+                android:text="Row1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Lab_Datetime" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3">
+            <TextView
+                android:text="Max Tem :"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="191.0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Lab_maxTemperature_title"
+                android:layout_marginBottom="20.0dp" />
+            <TextView
+                android:text="Row1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Lab_maxTemperature" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4">
+            <TextView
+                android:text="Min Tem :"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Lab_minTemperature_title"
+                android:layout_marginBottom="20.0dp" />
+            <TextView
+                android:text="Row1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Lab_minTemperature" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow5">
+            <TextView
+                android:text="Description :"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Lab_description_title"
+                android:layout_marginBottom="20.0dp" />
+            <TextView
+                android:text="Row1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Lab_description" />
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:text="more"
+        android:id="@+id/But_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
