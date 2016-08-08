@@ -6,4 +6,4 @@ using:
 	2.Android : ActionBar
 	3.iOS : PageViewController &  PageController
        
-get weather data sample
+sample of getting weather data 
